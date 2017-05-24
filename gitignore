@@ -1,0 +1,16 @@
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.dir
+
+#
+# CMake temporary files
+#
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+
+.vs/*
+mangosr.dir
+Win32/*
+Debug

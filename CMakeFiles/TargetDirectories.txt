@@ -1,4 +1,0 @@
-C:/Users/206457840/Documents/important/testing/cpp_test/concurrent/CMakeFiles/ALL_BUILD.dir
-C:/Users/206457840/Documents/important/testing/cpp_test/concurrent/CMakeFiles/ZERO_CHECK.dir
-C:/Users/206457840/Documents/important/testing/cpp_test/concurrent/src/server/CMakeFiles/mangosd.dir
-C:/Users/206457840/Documents/important/testing/cpp_test/concurrent/src/utils/CMakeFiles/utils.dir

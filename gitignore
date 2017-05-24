@@ -11,6 +11,8 @@ CMakeCache.txt
 cmake_install.cmake
 
 .vs/*
-mangosr.dir
+mangosr.dir/*
 Win32/*
-Debug
+
+Debug/*
+*/Debug/*

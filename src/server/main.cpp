@@ -3,8 +3,7 @@
 
 #include "common.h"
 #include "config.h"
-
-char *serverName = "mangosr";
+#include "daemon.h"
 
 extern int main(int argc, char *argv)
 {

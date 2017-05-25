@@ -1,11 +1,8 @@
 
 include_directories(
 	${CMAKE_SOURCE_DIR}/src/root/include
-	${CMAKE_SOURCE_DIR}/src/utils/include
 )
 
 add_library(utils
-	common.cpp
-	config.cpp
-	win32.cpp
+	define.h
 )

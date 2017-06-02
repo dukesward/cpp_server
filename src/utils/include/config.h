@@ -1,7 +1,7 @@
 #ifndef UTILS_CONFIG_H
 #define UTILS_CONFIG_H
 
-#include "define.h"
+#include "const_define.h"
 
 #	ifndef UTILS_COMMON_H
 #	include "common.h"
@@ -11,12 +11,15 @@ class Config
 {
 	public:
 
-		Config(const char *source);
+		Config(std::string *source);
 		~Config();
+
+		bool GetConf();
 
 	private:
 
-		char *source;
+		std::string *source;
+		std::string *conf;
 
 };
 

@@ -16,3 +16,5 @@ set (EXECUTABLE_SRCS
 add_executable(${EXECUTABLE_NAME}
   ${EXECUTABLE_SRCS}
 )
+
+target_link_libraries(mangosd utils)

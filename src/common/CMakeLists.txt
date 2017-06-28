@@ -1,6 +1,12 @@
 
 file(GLOB FILE_SOURCES
-	${current_dir}/*.cpp
-	${current_dir}/*.hpp
-	${current_dir}/*.h	
+	${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/*.hpp
+	${CMAKE_CURRENT_SOURCE_DIR}/*.h
+)
+
+list(APPEND SOURCES ${FILE_SOURCES})
+
+add_library(common
+	${SOURCES}
 )

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/MaNGOSr")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/wow_server")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -25,5 +25,12 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   else()
     set(CMAKE_INSTALL_COMPONENT)
   endif()
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("C:/Users/206457840/Documents/important/testing/cpp_test/concurrent/src/server/database/cmake_install.cmake")
+  include("C:/Users/206457840/Documents/important/testing/cpp_test/concurrent/src/server/world/cmake_install.cmake")
+
 endif()
 

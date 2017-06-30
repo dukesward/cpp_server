@@ -6,11 +6,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database\DatabaseEnv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{6E0A48CB-5C0B-3BB9-A6D8-027C804F6974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF6AC2E4-32BA-3F90-AFCD-F1EEBF32FCE1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

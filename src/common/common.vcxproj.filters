@@ -9,6 +9,12 @@
     <ClInclude Include="C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography\OpenSSLCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\CMakeLists.txt" />

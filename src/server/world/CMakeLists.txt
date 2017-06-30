@@ -1,4 +1,11 @@
 
+include_directories(
+	${CMAKE_SOURCE_DIR}/src/common
+	${CMAKE_SOURCE_DIR}/src/common/Cryptography
+	${CMAKE_SOURCE_DIR}/src/common/Debugging
+	${CMAKE_SOURCE_DIR}/src/server/database/Database
+)
+
 file(GLOB FILE_SOURCES
 	${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/*.hpp
@@ -17,5 +24,6 @@ add_executable(${EXECUTABLE_NAME}
 )
 
 target_link_libraries(${EXECUTABLE_NAME}
-    database
+	PUBLIC
+    	database
 )

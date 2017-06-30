@@ -87,7 +87,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -131,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -217,7 +217,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -233,10 +233,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\common\Cryptography;C:\Users\206457840\Documents\important\testing\cpp_test\concurrent\src\server\database\Database;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
